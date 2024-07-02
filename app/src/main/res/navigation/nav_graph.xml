@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMyHomeFragment">
+
+    <fragment
+        android:id="@+id/mainMyHomeFragment"
+        android:name="com.example.homework_m7_1.fragment.MainMyHomeFragment"
+        android:label="fragment_main_my_home"
+        tools:layout="@layout/fragment_main_my_home" />
+</navigation>

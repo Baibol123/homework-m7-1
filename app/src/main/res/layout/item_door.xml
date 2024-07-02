@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="12dp">
+
+        <TextView
+            android:id="@+id/tv_door_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Door Name"
+            android:textSize="16sp"
+            android:padding="16sp"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="16dp"
+            app:srcCompat="@drawable/ic_lockon" />
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
